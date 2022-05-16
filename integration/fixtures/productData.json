@@ -1,0 +1,15 @@
+{
+  "ProductName": "CypressHill",
+  "Categories": "FROZEN FOOD",
+  "Subcategories": "Frozen fish",
+  "Certificates": "ISO",
+  "Quantity": "1337",
+  "QuantityType": "kg",
+  "TariffCode": "123456789",
+  "ShelfLife": "420",
+  "Price": "50000",
+  "INCOTERM": "CIF",
+  "MinimumOrderWithUnit": "1",
+  "PiecePallet": "23",
+  "PalletWeight": "600"
+}
