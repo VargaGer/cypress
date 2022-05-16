@@ -15,6 +15,18 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import inViewport from './inViewport'
+
+before(() => {
+    chai.use(inViewport)
+})
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// Turn off all exception error
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+  })
